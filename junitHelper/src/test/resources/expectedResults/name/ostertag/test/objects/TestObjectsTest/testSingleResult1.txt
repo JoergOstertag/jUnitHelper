@@ -1,6 +1,10 @@
 {
   "age" : 33,
   "awsomeId" : 26,
+  "exampleList" : [ ],
+  "exampleMap" : { },
+  "exampleSet" : [ ],
+  "gender" : "MALE",
   "lastName" : "Schmidt",
   "name" : "Martin",
   "otherId" : 25,
