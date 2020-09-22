@@ -1,0 +1,9 @@
+{
+  "age" : 33,
+  "awsomeId" : 26,
+  "lastName" : "Schmidt",
+  "name" : "Martin",
+  "otherId" : 25,
+  "race" : "HUMAN",
+  "uniqueId" : 27
+}

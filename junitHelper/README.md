@@ -1,0 +1,4 @@
+# junitHelper
+
+assertExpectedResult
+--------------------

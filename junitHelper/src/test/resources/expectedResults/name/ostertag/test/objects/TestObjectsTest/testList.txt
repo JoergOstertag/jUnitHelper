@@ -1,0 +1,73 @@
+[ {
+  "age" : -1,
+  "awsomeId" : 11,
+  "lastName" : "Baggins",
+  "name" : "Frodo",
+  "otherId" : 10,
+  "race" : "HOBBIT",
+  "uniqueId" : 12
+}, {
+  "age" : 38,
+  "awsomeId" : 38,
+  "lastName" : "Gamgee",
+  "name" : "Samwise",
+  "otherId" : 37,
+  "race" : "HOBBIT",
+  "uniqueId" : 39
+}, {
+  "age" : -1,
+  "awsomeId" : 23,
+  "lastName" : "",
+  "name" : "Merry",
+  "otherId" : 22,
+  "race" : "HOBBIT",
+  "uniqueId" : 24
+}, {
+  "age" : -1,
+  "awsomeId" : 35,
+  "lastName" : "",
+  "name" : "Pippin",
+  "otherId" : 34,
+  "race" : "HOBBIT",
+  "uniqueId" : 36
+}, {
+  "age" : -1,
+  "awsomeId" : 2,
+  "lastName" : "Elessar Telcontar",
+  "name" : "Aragorn",
+  "otherId" : 1,
+  "race" : "UNKNOWN",
+  "uniqueId" : 3
+}, {
+  "age" : -1,
+  "awsomeId" : 14,
+  "lastName" : "",
+  "name" : "Gandalf",
+  "otherId" : 13,
+  "race" : "HUMAN",
+  "uniqueId" : 15
+}, {
+  "age" : -1,
+  "awsomeId" : 17,
+  "lastName" : "",
+  "name" : "Gimli",
+  "otherId" : 16,
+  "race" : "DWARF",
+  "uniqueId" : 18
+}, {
+  "age" : 1000,
+  "awsomeId" : 20,
+  "lastName" : "",
+  "name" : "Legolas",
+  "otherId" : 19,
+  "race" : "ELF",
+  "uniqueId" : 21
+}, {
+  "age" : 37,
+  "awsomeId" : 5,
+  "lastName" : "of Gondor",
+  "name" : "Boromir",
+  "otherId" : 4,
+  "race" : "HUMAN",
+  "uniqueId" : 6
+} ]
