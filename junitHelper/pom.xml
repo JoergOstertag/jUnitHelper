@@ -20,6 +20,8 @@
 		<maven.compiler.release>${java.version}</maven.compiler.release>
 
 		<junit>5.6.2</junit>
+		<version.log4j>2.13.2</version.log4j>
+		<version.jackson>2.9.10.5</version.jackson>
 
 		<!-- Plugin versions -->
 		<maven.shade>3.2.2</maven.shade>
@@ -66,23 +68,23 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.9.8</version>
+			<version>${version.jackson}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-api</artifactId>
-			<version>2.7</version>
+			<version>2.13.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
-			<version>2.7</version>
+			<version>${version.log4j}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-slf4j-impl</artifactId>
-			<version>2.7</version>
+			<version>${version.log4j}</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
