@@ -1,10 +1,18 @@
 node {
     stages {
+
+	stage('Build') { 
+            steps {
+                sh 'mvn -B -DskipTests clean package' 
+            }
+        }
+
 	stage('compile') {
 	    steps {
 	    	sh 'mvn clean install'
 	    	}
 	}
+
 	stage('Test') {
             steps {
                 sh 'mvn test'
@@ -16,15 +24,6 @@ node {
             }
         }
 	
-	stage('Build') {
-	    echo 'Building....'
-	    mvn clean install package -DskipTests
-	    echo 'Building DONE'
-	}
-	stage('Test') {
-	    echo 'Testing....'
-	    sh 'mvn test'
-	    echo 'Testing DONE'
-	}
+	
     }
 }
